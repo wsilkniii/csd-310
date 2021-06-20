@@ -25,4 +25,5 @@ print(" -- INSERT STATEMENTS -- ")
 for student in studs:
     print("Inserted student record {} {} into the students collection with document_id {} ".format(student["first_name"], student["last_name"], student["_id"]))
 
+print("\n\n")
 pause_exit(0, 'Press any key to exit... ')

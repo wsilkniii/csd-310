@@ -21,5 +21,6 @@ for doc in docs:
 doc = students.find_one({"student_id": "1007"})
 print(" -- DISPLAYING STUDENTS DOCUMENTS FROM findOne() QUERY -- ")
 print("Student ID: {}\nFirst Name: {}\nLast Name: {}".format(doc["student_id"], doc["first_name"], doc["last_name"]))
+print("\n\n")
 
 pause_exit(0, 'Press any key to exit... ')
