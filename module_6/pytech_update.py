@@ -19,7 +19,7 @@ for doc in docs:
     print()
 
 filter = {"student_id": "1007"}
-update = {"$set": {"last_name": "Builder II"}}
+update = {"$set": {"last_name": "Builder 2"}}
 
 students.update_one(filter, update)
 
