@@ -30,9 +30,11 @@ try:
 
     myresults = mycursor.fetchall()
 
-    print(" -- DISPLAYING PLAYER RECORDS == ")
+    print("\n")
+    print(" -- DISPLAYING PLAYER RECORDS -- ")
+    print("\n")
     for result in myresults:
-        print("Player ID: {}\nFirst Name: {}\nLast Name: {}\nTeam ID: {}\n".format(result[0], result[1], result[2], result[3]))
+        print("Player ID: {}\nFirst Name: {}\nLast Name: {}\nTeam Name: {}\n".format(result[0], result[1], result[2], result[3]))
 
     print("\n")
     pause_exit(0, "Press any key to continue...")
